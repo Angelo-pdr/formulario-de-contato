@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <form>
+                <h2>Registra novo Contato</h2>
+                <input type="text" required placeholder="Nome" id="nome" max="15">
+                <input type="tel" required placeholder="Telefone" id="telefone" max="12" >
+                <input type="submit" id="button" value="Salva Contato"></button>
+            </form>
+        </div>
+        <div id="contatos">
+            <table >
+                <caption>Contatos</caption>
+                <thead id="thead">
+                    <tr>
+                        <th id="numeros">Angelo - 31975732125</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

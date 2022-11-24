@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+input{
+    display: block;
+    width: 410px;
+    height: 40px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+.container #contatos h2{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container div{
+    margin-top: 20px;
+}
+
+.container div form{
+    padding: 0 20px;
+}
+
+.container #contatos{
+    margin: 5px;
+}
+
+.container #contatos{
+    max-width: 410px;
+}
+
+.container #contatos table {
+    width: 100%;
+    text-align: center;
+}
+
+.container #contatos table caption{
+    font-size: 20px;
+    padding: 18px 0;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.container #contatos table thead tr th {
+    width: 100%;
+    padding: 8px 0;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    list-style: none;
+    font-weight: normal;
+}
